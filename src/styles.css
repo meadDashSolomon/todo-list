@@ -1,0 +1,39 @@
+.content {
+  display: inline-flex;
+  flex-direction: column;
+}
+
+.topContent {
+  display: inline-flex;
+}
+
+.todos {
+  padding-left: 30px;
+}
+
+.list {
+  list-style-type: none;
+}
+
+.leftContainer {
+  border-right: solid rgba(0, 0, 0, 0.674) 3px;
+  padding-right: 50px;
+  padding-top: 20px;
+}
+
+.listItems {
+  margin-top: 35px;
+}
+
+.banner {
+  margin-left: 75px;
+}
+
+.bottomBar {
+  display: inline-flex;
+  justify-content: space-between;
+}
+
+.search {
+  min-width: 50px;
+}
