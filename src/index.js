@@ -1,3 +1,3 @@
-import { today } from "./pages/today";
+// import { today } from "./pages/today";
 
-today();
+// today();

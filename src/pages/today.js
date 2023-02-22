@@ -70,7 +70,7 @@ const today = () => {
   bottomBar.appendChild(newTodo);
 
   let search = document.createElement("img");
-  search.src = "src/icons/search.svg";
+  search.src = "/Users/mead93/repos/todo-list/dist/icons/search.svg";
   search.classList.add("search");
   bottomBar.appendChild(search);
 };
