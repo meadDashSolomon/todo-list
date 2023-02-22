@@ -1,4 +1,59 @@
 .content {
+  display: flex;
+  flex-direction: column;
+}
+
+.top {
+  display: inline-flex;
+  padding-bottom: 100px;
+}
+
+.topLeft {
+  border-right: 3px solid rgba(0, 0, 0, 0.562);
+}
+
+div > .topLeft {
+  padding: 10px;
+}
+
+.leftBtns {
+  width: 120px;
+  margin: 5px 0px 5px -10px;
+}
+
+.logbookTrash {
+  display: inline-flex;
+  flex-direction: column;
+  margin: 30px 0px;
+}
+
+.bottomBar {
+  display: inline-flex;
+  padding-top: 10px;
+  border-top: 3px solid rgba(0, 0, 0, 0.562);
+  max-width: 90%;
+}
+
+.newProj {
+  border-right: 3px solid rgba(0, 0, 0, 0.562);
+  padding-right: 10px;
+}
+
+.newProj > button {
+  width: 120px;
+}
+
+.newTodo > button {
+  margin-left: 30px;
+}
+
+.todayHeader {
+  margin-left: 30px;
+  margin-top: 0px;
+}
+
+/* old js dom styling */
+/* .content {
   display: inline-flex;
   flex-direction: column;
 }
@@ -36,4 +91,4 @@
 
 .search {
   min-width: 50px;
-}
+} */
